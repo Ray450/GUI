@@ -4,9 +4,7 @@ header
 }
 body
 {
-	background: #AAAAAA;
-	margin: auto;
-	max-width: 800px;
+	background: #AAAAAA;margin: auto;max-width: 800px;
 	
 }
 nav ul
@@ -49,7 +47,7 @@ nav
 img
 {
 	float: left;
-	margin:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px
 	width: 800px;
 	padding: 20px 40px 5px 18px;
 }
@@ -60,14 +58,14 @@ p
 	margin-top: 50px;
 	margin-left: 100px;
 	font-size: 24px;
-	padding-bottom: 140px;
+	padding-bottom: 200px;
 }
 
 li
 {
 	margin-top: 2px;
 	margin-left: 10px;
-	font-size: 18px;	
+	font-size: 24px;	
 }
 
 footer{
