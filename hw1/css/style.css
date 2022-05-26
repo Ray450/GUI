@@ -4,7 +4,9 @@ header
 }
 body
 {
-	background: #AAAAAA;margin: auto;max-width: 800px;
+	background: #AAAAAA;
+	/*margin: auto;*/
+	max-width: 800px;
 	
 }
 nav ul
