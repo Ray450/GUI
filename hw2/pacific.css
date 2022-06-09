@@ -6,7 +6,7 @@ Raymond Fanini, UMass Lowell Computer Science, Raymond_Fanini@student.uml.edu
 
 Copyright (c) 2022 by Raymond Fanini. All rights reserved. May be freely copied or
 excerpted for educational purposes with credit to the author.
-updated by RF on June 9, 2022 at 3:15 AM
+updated by RF on June 9, 2022 at 3:30 AM
 */
 
 
@@ -23,11 +23,12 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	This is the body selector.
 	Text color number is #666666.
 	The font family is Arial, Helvetica and sans-serif.
+	I added the the color number for the background-color property.
 	I added the background-image property to display a background image.
 
 */
 body {
-	background-color: ;
+	background-color: #00569f;
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
 	background-image: url(ptrbackground.jpg);
