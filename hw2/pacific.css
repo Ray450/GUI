@@ -1,0 +1,232 @@
+
+/*
+File: pacific.css
+GUI Assignment: Style a Site with External CSS
+Raymond Fanini, UMass Lowell Computer Science, Raymond_Fanini@student.uml.edu
+
+Copyright (c) 2022 by Raymond Fanini. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by RF on June 9, 2022 at 3:15 AM
+*/
+
+
+
+
+/*
+	These are the header, hgroup, nav, footer, figure, figcaption, aside, section and article selectors.
+	The display property is set to block.
+*/
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+/*
+	This is the body selector.
+	Text color number is #666666.
+	The font family is Arial, Helvetica and sans-serif.
+	I added the background-image property to display a background image.
+
+*/
+body {
+	background-color: ;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(ptrbackground.jpg);
+}
+
+/*
+	This is the nav ul selector.
+	The font size is 1.2em.
+	I added the float property so that it floats to the left.
+	Then, I added the list-style-type property and set it to none.
+	Then, I added the padding and set it to 0px 0px 0px 20px.
+	Then, I added the margin and set it to 0px 0px 0px 20px.
+*/
+nav ul {
+	font-size: 1.2em;
+	float:left;
+	list-style-type: none;
+	padding: 0px 0px 0px 20px;
+	margin: 20px 0px 0px 0px;
+}
+/*
+	I added nav a selector.
+	Then, I added the text-decoration property and set it to none so that it is not highlighted.
+	Then, I added the color property to set the text color number to #000038.	
+	Then, I added the font-weight property and set it to bold.
+	
+*/
+nav a {
+	text-decoration: none;
+	color: #000038;
+	font-weight: bold;
+}
+
+/*
+	This is the nav a selector.
+	Text color number is #344873 when the site is visited.
+*/
+nav a:visited {
+	color: #344873;
+}
+/*
+	This is the nav a selector.
+	Text color number is #FFFFFF when the mouse hovers the link.
+*/
+nav a:hover {
+	color: #FFFFFF;
+}
+/*
+	This is the h1 selector to modify the level 1 header.
+	It is displayed bottom margin and a 10 pixels padding.
+	I added the background-image property to display the sunset image.
+	Then, I added the background-repeat property so that it doesn't repeat.
+	Then, I added the background-position property so that the image appears to the right.
+	Then, I added the background-size property to set the background image size to 25%, 100%.
+	Then, I added the background-color property to set the background color number to #00002F.	
+	Then, I added the color property to make the text white.
+*/
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	
+	
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	
+	
+	background-position: right;
+	background-size: 25% 100%;
+	background-color: #00002F;
+	color: white;
+}
+/*
+	This is the h2 selector to modify the level 2 header.
+	Text color number is #3999CC;
+*/
+h2 {
+	color: #3399CC;
+}
+/*
+	This is the h1 and h2 selectors.
+	The font family are Georgia, Times New Roman, and serif.
+*/
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+/*
+	I added an id called content.
+	Then, I added the background-color property and set it to white.
+	Then, I added the margin-left property and set it to 185px.
+	Then, I added the padding property and set it to 10px.
+	
+*/
+#content {
+	background-color: white;
+	margin-left: 185px;
+	
+	padding: 10px;
+}
+
+/*
+	I added the id called content with h2.
+	Then, I added the padding property and set it to 0px 10px 0px 20px.
+	
+*/
+#content h2 {
+	padding: 0px 10px 0px 20px;
+}
+/*
+	I added the id called content with img.
+	Then, I added the float property and set to left.
+	Then, I added the padding property and set it to 0px 30px 0px 20px.
+*/
+#content img {
+	float:left;
+	padding: 0px 30px 0px 20px;
+}
+/*
+	I added the id called content with p.
+	Then, I added the float property and set to left.
+	Then, I added the margin-left property and set it to 20px.
+*/
+#content p {
+	margin-left:20px;
+}
+/*
+	I added the id called content with img.
+	Then, I added the list-style-position property and set to inside.
+*/
+#content ul {
+	list-style-position: inside;
+}
+/*
+	I added the id called content with span.
+	Then, I added the color property to set the text color number to #00569F.
+	Then, I added the font-weight property and set to bold.
+*/
+
+#content span {
+	color: #00569F;
+	font-weight: bold;
+}
+/*
+	I added the id called content with ul.
+	Then, I added the list-style-image property to display the marker image.
+	Then, I added the padding property and set it to 0px 10px 0px 75px.
+	*/
+#content ul {
+	list-style-image: url('marker.gif');
+	padding: 0px 10px 0px 75px;
+}
+/*
+	I added an id called wrapper.
+	Then, I added the color property to set the text color number to #85C4E0.
+	Then, I added the margin-left property and set it to 50px.
+	Then, I added the margin-right property and set it to 50px.
+	Then, I added the min-width property and set it to 580px.
+*/
+#wrapper {
+	background-color: #85C4E0;
+	margin-left:50px;
+	margin-right:50px;
+	min-width: 580px;
+}
+
+/*
+	This is an id called contact.
+	The font size is 90%.
+	I added the margin-bottom property and set it to 20px.
+	Then, I added the margin-bottom property and set it to 100px.
+*/
+#contact {
+	font-size: 90%;
+	margin-left: 20px;
+	margin-bottom: 100px;
+}
+
+/*
+	This is the dt selector.
+	Text color number is #000033;
+*/
+dt {
+	color: #000033;
+}
+/*
+	This is the footer selector.
+	The font family are Georgia, Times New Roman, and serif.
+	I added the background-color property and set it to white.
+	Then, I added the margin-left property and set it to 185px.
+	Then, I added the padding-bottom property and set it to 15px.
+	Then, I added the padding-left property and set it to 20px.
+*/
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style:italic;
+	background-color: white;
+	margin-left: 185px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+}
+
