@@ -1,0 +1,354 @@
+
+/*
+File: style.css
+GUI Assignment: Style a Site with External CSS
+Raymond Fanini, UMass Lowell Computer Science, Raymond_Fanini@student.uml.edu
+
+Copyright (c) 2022 by Raymond Fanini. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by RF on June 24, 2022 at 11:35 AM
+
+I used https://www.w3schools.com/ website as reference.
+
+I used the following link as reference and to download the jquery-plugin:
+
+https://jqueryvalidation.org/
+
+https://jqueryui.com/download/
+
+*/
+
+/*
+	I added this body selector.
+	I added the color property and set the background color number to #f5c242
+*/
+body 
+{
+	background-color: #f5c242;
+}
+
+/*
+	I added this nav selector.
+	I added the color property and set the text color number to #42f59c
+	I added the font-size property and set the text size to 2em
+*/
+nav 
+{
+	background-color: #42f59c;
+	font-size: 2em;
+}
+
+
+
+/*
+	I added the nav ul selector.
+	Then, I added the font-size property and set it to 1.2em.
+	Then, I added the text-align property and set it to center.
+	Then, I added the list-style-type property and set it to none.
+*/
+nav ul {
+	font-size: 1.2em;
+	text-align:center;
+	list-style-type: none;
+}
+
+/*
+	I added the nav li selector.
+	Then, I added the display property and set it to inline.
+*/
+nav li
+{
+	display: inline;
+}
+
+
+/*
+	I added the nav a selector.
+	Then, I added the text-decoration property and set it to none so that it is not highlighted.
+	Then, I added the font-weight property and set it to bold.
+	
+*/
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/*
+	I added the h1 selector.
+	Then, I added the background color property and set the background color number to #6879c4
+	Then, I added the color property and set the text color to white.
+	Then, I added the padding property and set it to 10px.
+	Then, I added the margin-top property and set it to 50px.
+	Then, I added the text-align property and set it to center.
+*/
+h1 {
+	background-color: #6879c4;
+	color: white;
+	padding: 10px;
+	margin-top: 50px;
+	text-align:center;
+}
+/*
+	I added the h2 selector.
+	Then, I added the padding property and set it to 10px.
+	Then, I changed the margin-top property and set it to 20px.
+*/
+h2 {
+	padding: 10px;
+	margin-top: 20px;
+}
+/*
+	I added the form selector.
+	Then, I added the padding property and set it to 10px.
+*/
+form
+{
+	/**/
+	padding-bottom: 10px;
+	
+}
+
+/*
+	I added the jquery class.
+	Then, I added the background color property and set the background color to white.
+	Then, I added the color property and set the text color to red.
+
+*/
+.error {
+	background-color: white;
+	color: red;
+}
+/*
+	I added the input selector.
+	Then, I added the font-size property and set it to 2em.
+*/
+input
+{
+	font-size: 2em;
+}
+/*
+	I added an id called input2.
+	Then, I added the margin-left property and set it to 9px.
+*/
+#input2
+{
+	margin-left: 9px;
+}
+/*
+	I added an id called input2.
+	Then, I added the margin-left property and set it to 9px.
+*/
+#input4
+{
+	margin-left: 9px;
+}
+/*
+	I added the label selector.
+	Then, I added the display property and set it to inline-block.
+	Then, I added the width property and set it to 200px.
+	Then, I added the font-size property and set it to 1.5em.
+	Then, I added the font-weight property and set it to bold.
+	
+*/
+label
+{
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight:bold;
+}
+
+/*
+	I added an id called multiplier.
+	Then, I changed the min-height property and set it to 400px.
+*/
+#multiplier
+{
+	min-height: 400px;
+}
+
+/*
+	I added this nav selector.
+	I added the font-size property and set the text size to 3em
+*/
+button
+{
+	font-size: 3em;
+}
+
+/*
+	I added this table selector.
+	Then, I added the background-color property and set the text size to 3em.
+	Then, I added the border-collapse property and set the text size to collapse.
+	Then, I added the border property and set the text size to 1px and solid black.
+*/
+table
+{
+	background-color: white;
+	border-collapse: collapse;
+	border: 1px solid black;
+
+}
+
+/*
+	I added an id called first_cell.
+	Then, I added the background-color property and set it to white.
+*/
+
+#first_cell
+{
+	background-color: white;
+}
+/*
+	I added the td selector.
+	Then, I added the font-size property and set the text size to 2em.
+	Then, I added the text-align property and set the text size to right.
+	Then, I added the border property and set the text size to 1px and solid black.
+	Then, I added the width property and set the text size to 50px.
+*/
+td
+{
+	font-size: 2em;
+	text-align: right;
+	border: 1px solid black;
+	width: 50px;
+}
+
+/*
+	I added the tr:nth-child(even) selector.
+	Then, I added the background-color property and set the color to yellow.
+*/
+tr:nth-child(even)
+{
+	background-color: yellow;
+}
+/*
+	I added the tr:nth-child(odd) selector.
+	Then, I added the background-color property and set the color to grey.
+*/
+tr:nth-child(odd)
+{
+	background-color: grey;
+}
+
+
+/*
+	I added an id called table.
+	Then, I added the overflow property and set it to auto.
+	Then, I added the max-width property and set it to 800px.
+	Then, I added the max-height property and set it to 300px.
+*/
+#table
+{
+	overflow: auto;
+	max-width: 800px;
+	max-height: 300px;
+	float:left;
+}
+
+
+/*
+	I added a p selector.
+	Then, I added the font-size property and set it to 25px.
+	
+*/
+p
+{
+	font-size:20px;
+}
+
+/*
+	I added an id called error.
+	Then, I added the color property to set the text color to red.
+	Then, I added the font-size property and set it to 2em.
+	
+*/
+#error
+{
+	color: red;
+	font-size:2em;
+}
+
+/*
+	I added a footer selector.
+	Then, I added the background-color property and set it to white.
+	Then, I added the font-style property and set it to italic.
+	Then, I added the text-align property and set it to center.
+	Then, I added the padding-bottom property and set it to 15px.
+
+*/
+footer {
+	background-color: white;
+	font-style:italic;
+	text-align:center;
+	padding-bottom: 15px;
+	
+}
+
+/*
+	I added an id called ui_slider1.
+	Then, I added the width property and set it to 400px.
+	Then, I added the margin-top property and set it to 20px.
+	Then, I added the margin-left property and set it to 180px.
+	
+*/
+#ui_slider1 {
+	width: 400px;
+	margin-top: 20px;
+	margin-left: 180px;
+}
+/*
+	I added an id called ui_slider2.
+	Then, I added the width property and set it to 400px.
+	Then, I added the margin-top property and set it to 20px.
+	Then, I added the margin-left property and set it to 180px.
+	
+*/
+#ui_slider2 {
+	width: 400px;
+	margin-top: 20px;
+	margin-left: 180px;
+}
+/*
+	I added an id called ui_slider3.
+	Then, I added the width property and set it to 400px.
+	Then, I added the margin-top property and set it to 20px.
+	Then, I added the margin-left property and set it to 180px.
+	
+*/
+#ui_slider3 {
+	width: 400px;
+	margin-top: 20px;
+	margin-left: 180px;
+}
+/*
+	I added an id called ui_slider4.
+	Then, I added the width property and set it to 400px.
+	Then, I added the margin-top property and set it to 20px.
+	Then, I added the margin-left property and set it to 180px.
+	
+*/
+#ui_slider4 {
+	width: 400px;
+	margin-top: 20px;
+	margin-left: 180px;
+}
+
+/*
+	I added an id called tabs.
+	Then, I added the overflow property and set it to auto.
+	Then, I added the min-width property and set it to 800px.
+	Then, I added the min-height property and set it to 350px.
+	Then, I added the max-width property and set it to 800px.
+	Then, I added the max-height property and set it to 350px.
+	Then, I added the margin-left property and set it to 900px.
+	
+*/
+#tabs {
+	overflow: auto;
+	min-width: 800px;
+	min-height: 350px;
+	max-width: 800px;
+	max-height: 350px;
+	margin-left: 900px;
+}
