@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+File: index.html
+GUI Assignment: Interactive Dynamic Table
+Raymond Fanini, UMass Lowell Computer Science, Raymond_Fanini@student.uml.edu
+
+Copyright (c) 2022 by Raymond Fanini. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by RF on June 30, 2022 at 6:20 AM
+
+
+I used https://www.w3schools.com/ website as reference.
+
+I used the following link as reference and to download the jquery-plugin:
+
+https://jqueryvalidation.org/
+  
+https://jqueryui.com/
+
+This is scramble game. In this game the computer will choose some random
+letters and you have to place the letters to form words until there is no 
+letters left.
+-->
+
+
+<html lang="en"> 
+  <head>
+    <meta charset="utf-8">
+    <title>Scrabble</title>
+	<!--I downloaded this css file from https://jqueryvalidation.org/  -->
+	<link type="text/css" rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+		<h1>Implementing a Bit of Scrabble with Drag-and-Drop</h1>
+	</header>
+	
+	
+	<main>
+		
+		 
+		<!--This will display the score-->
+		<div>
+		<p id = "Score">0</p>
+		</div>
+		
+		
+		<!--This will display the tile holder-->
+		<div id="tile_holder" class="ui-widget-content">
+         </div>
+
+		
+		<!--This will display the sumit button-->
+		<form id = "sumit_tiles">
+			<input type="submit" id="submit1" value="Submit" />
+		</form>
+		
+		<!--This will display the reset button-->
+		<form>
+			<input type="submit" id="submit2" value="Reset" />
+		</form>
+		
+		<!--This will display the scramble board-->
+		<div id="one_line_sample" class="ui-widget-header">
+		</div>
+		
+		
+		<!--This will display a table to display the remaining letters-->
+		<div id="ScrabbleTiles">
+			
+		</div>
+	</main>  
+	
+	
+	
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    
+	
+	
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+	
+	
+	
+	<!--I downloaded this jquery file from https://jqueryvalidation.org/  -->
+ <script src="js/jquery.validate.js"></script>
+	
+	
+	
+  <script src="js/Scrabble_Pieces_AssociativeArray_Jesse.js"></script>
+  <script src="js/script.js"></script>
+  
+  
+  <!--This is the footer-->
+		<footer class="">
+			<a href="mailto:Raymond_Fanini@student.uml.edu">Raymond_Fanini@student.uml.edu</a><br>
+			<span>Copyright &copy; Raymond Fanini<br></span>
+		</footer>
+	</body>
+</html>

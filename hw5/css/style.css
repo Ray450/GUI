@@ -1,0 +1,205 @@
+
+/*
+File: style.css
+GUI Assignment: Style a Site with External CSS
+Raymond Fanini, UMass Lowell Computer Science, Raymond_Fanini@student.uml.edu
+
+Copyright (c) 2022 by Raymond Fanini. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by RF on June 24, 2022 at 8:15 AM
+
+I used https://www.w3schools.com/ website as reference.
+
+I used the following link as reference and to download the jquery-plugin:
+
+https://jqueryvalidation.org/
+
+https://jqueryui.com/
+
+*/
+
+/*
+	I added this body selector.
+	I added the color property and set the background color number to #d4d1cb
+*/
+body 
+{
+	background-color: #d4d1cb;
+}
+
+
+/*
+	I added the h1 selector.
+	Then, I added the color property and set the text color to black.
+	Then, I added the padding property and set it to 10px.
+	Then, I added the text-align property and set it to center.
+*/
+h1 {
+	
+	color: black;
+	padding: 10px;
+	text-align:center;
+}
+
+
+
+/*
+	I added a p selector.
+	Then, I added the font-size property and set it to 25px.
+	
+*/
+p
+{
+	font-size:25px;
+}
+
+
+/*
+	I added id called tile_holder.
+	Then, I added the background-image property to upload the image of the tile holder.
+	Then, I added the background-repeat property and set it to no-repeat.
+	Then, I added the width property and set it to 650px.
+	Then, I added the height property and set it to 200px.
+	Then, I added the margin-bottom property and set it to 100px.
+	
+*/
+#tile_holder
+{
+	background-image: url("../img/scrabble-tile-holder-406774_640.png");
+	background-repeat: no-repeat;
+	width: 650px;
+	height: 200px;
+	margin-bottom: 100px;
+}
+
+
+/*
+	I added class called Scrabble_Tiles.
+	Then, I added the width property and set it to 70px.
+	Then, I added the height property and set it to 70px.
+	Then, I added the padding-left property and set it to 20px.
+	Then, I added the margin-top property and set it to 50px.
+	
+*/
+.Scrabble_Tiles
+{
+	width: 70px;
+	height: 70px;
+	padding-left: 20px;
+	margin-top: 50px;
+	
+}
+
+
+
+
+
+/*
+	I added id called one_line_sample.
+	Then, I added the background-image property to upload the image of the scramble board.
+	Then, I added the background-repeat property and set it to no-repeat.
+	Then, I added the max-width property and set it to 1125px.
+	Then, I added the max-height property and set it to 80px.
+	
+*/
+#one_line_sample
+{
+	background-image: url("../img/Scrabble_Board_OneLine.png");
+	background-repeat: no-repeat;
+	max-width: 1125px;
+	max-height: 80px;
+}
+
+
+/*
+	I added class called Table.
+	Then, I added the width property and set it to 0.
+	Then, I added the height property and set it to 70px.
+	Then, I added the margin-top property and set it to 70px.
+	Then, I added the margin-left property and set it to 3px.
+	Then, I added the display property and set it to inline-block.
+	
+*/
+.Table
+{
+	opacity: 0;
+	width: 70px;
+	height: 70px;
+	margin-top: 5px;
+	margin-left:3px;
+	display: inline-block;
+}
+/*
+	I added id called ScrabbleTiles.
+	Then, I added the font-size property and set it to 2em.
+	Then, I added the border property and set it to 1px solid black.
+	Then, I added the width property and set it to 558px.
+	
+*/
+#ScrabbleTiles
+{
+	font-size: 2em;
+	border: 1px solid black;
+	width: 558px;
+}
+/*
+	I added the tr:nth-child(even) selector.
+	Then, I added the background-color property and set the color number to #ff9900.
+*/
+tr:nth-child(even)
+{
+	background-color: #ff9900;
+}
+/*
+	I added the tr:nth-child(odd) selector.
+	Then, I added the background-color property and set the color number to #a3c2c2.
+*/
+tr:nth-child(odd)
+{
+	background-color: #a3c2c2;
+}
+/*
+	I added id called submit1.
+	Then, I added the font-size property and set it to 3em.
+	Then, I added the float property and set it to left.
+*/
+#submit1
+{
+	font-size: 3em;
+	float:left;
+	
+}
+/*
+	I added id called submit2.
+	Then, I added the font-size property and set it to 3em.
+	Then, I added the margin-left property and set it to 10px.
+	Then, I added the margin-bottom property and set it to 10px.
+	Then, I added the clear property and set it to both.
+*/
+#submit2
+{
+	font-size: 3em;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	clear:both;
+}
+
+
+
+
+/*
+	I added a footer selector.
+	Then, I added the background-color property and set it to white.
+	Then, I added the font-style property and set it to italic.
+	Then, I added the text-align property and set it to center.
+	Then, I added the padding-bottom property and set it to 15px.
+
+*/
+footer {
+	background-color: white;
+	font-style:italic;
+	text-align:center;
+	padding-bottom: 15px;
+	
+}
+

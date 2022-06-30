@@ -1,0 +1,8 @@
+Name: Raymond Fanini
+
+To play the game you have to take the letters and form words. Then, you have to click
+on the summit button to get the score. Then, the computer will display more random
+letters. The score will increase as you play the game. Then, the game will end when
+the computer runs out of letters. You can see the remaining letters on a table that is
+below the scramble board.
+
